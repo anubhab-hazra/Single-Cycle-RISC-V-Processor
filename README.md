@@ -49,7 +49,6 @@ Implemented instruction categories include:
 - Conditional branch instructions
 - Jump instructions
 
-> Note: Update this section with the exact instructions supported by your RTL. Claim full RV32I compliance only after implementing and verifying the complete base instruction set.
 
 ## Tools and Technologies
 
@@ -59,29 +58,6 @@ Implemented instruction categories include:
 - Testbench-based verification
 - Waveform analysis
 
-## Repository Structure
-
-```text
-single-cycle-riscv-processor/
-├── rtl/
-│   ├── program_counter.v
-│   ├── instruction_memory.v
-│   ├── register_file.v
-│   ├── alu.v
-│   ├── immediate_generator.v
-│   ├── control_unit.v
-│   ├── data_memory.v
-│   └── riscv_top.v
-├── testbench/
-│   └── riscv_tb.v
-├── simulation/
-│   └── waveforms/
-├── docs/
-│   └── architecture.png
-└── README.md
-```
-
-*Adjust the file and folder names to match your actual project.*
 
 ## Verification
 
